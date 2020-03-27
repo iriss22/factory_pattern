@@ -1,4 +1,6 @@
-package ru.petrova.factory.method;
+package ru.petrova.factory.method.hero;
+
+import ru.petrova.factory.method.HeroType;
 
 public class TrollSecondLevel extends Hero {
   public TrollSecondLevel() {

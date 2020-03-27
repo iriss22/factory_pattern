@@ -1,4 +1,4 @@
-package ru.petrova.factory.method;
+package ru.petrova.factory.method.hero;
 
 public abstract class Hero {
 
@@ -12,12 +12,6 @@ public abstract class Hero {
     this.speed = speed;
     this.force = force;
     this.description = description;
-  }
-
-  public void addResource(int additionalHealth, int additionalSpeed, int additionalForce) {
-    health += additionalHealth;
-    speed += additionalSpeed;
-    force += additionalForce;
   }
 
   public String getDescription() {

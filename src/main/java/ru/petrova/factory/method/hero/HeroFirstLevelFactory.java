@@ -1,4 +1,9 @@
-package ru.petrova.factory.method;
+package ru.petrova.factory.method.hero;
+
+import ru.petrova.factory.method.BearFirstLevel;
+import ru.petrova.factory.method.HeroFactory;
+import ru.petrova.factory.method.HeroType;
+import ru.petrova.factory.method.NotFoundHero;
 
 public class HeroFirstLevelFactory extends HeroFactory {
   @Override

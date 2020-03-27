@@ -1,4 +1,6 @@
-package ru.petrova.factory.method;
+package ru.petrova.factory.method.hero;
+
+import ru.petrova.factory.method.HeroType;
 
 public class ElfFirstLevel extends Hero {
   public ElfFirstLevel() {
